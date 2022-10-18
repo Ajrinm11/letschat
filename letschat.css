@@ -1,0 +1,107 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+	background-image:url("pusheen.webp");
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+	height:80px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.logo
+{
+	width:70px;
+	height:70px;
+}
+
+.btn-grad {
+	background-image: linear-gradient(to right, #AAFFA9 0%, #11FFBD  51%, #AAFFA9  100%);
+	margin: 20px;
+	padding: 10px 35px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;            
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	border-color: white;
+  }
+
+  .btn-grad:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+  }
+          
+  .btn-grad2 {
+	background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+	margin: 10px;
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;            
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
+	border-color:white;
+	float:right;
+  }
+
+  .btn-grad2:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+  }
+          
+  .btn-grad3 {
+	background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+	margin: 10px;
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;            
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
+	border-color: white;
+  }
+
+  .btn-grad3:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+  }
