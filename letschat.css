@@ -105,3 +105,8 @@ body
 	color: rgb(0, 0, 0);
 	text-decoration: none;
   }
+
+  .color_white{
+	color:midnightblue;
+	font-family:cursive;
+  }
